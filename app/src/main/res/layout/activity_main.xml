@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/raketa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="18dp"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:id="@+id/top_text_view"
+        android:text="12 апреля" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/top_text_view"
+        android:padding="12dp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="Happy Cosmonautic Day!" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="35dp"
+        android:paddingTop="10dp"
+        android:background="#55010101"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/bottom_text_view"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:text= " &quot; Here we go! &quot;" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:id="@+id/bottom_text_view"
+        android:text="U.Gagarin" />
+
+
+
+</RelativeLayout>
